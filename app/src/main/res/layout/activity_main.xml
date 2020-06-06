@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/md_white_1000">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/dp_72"
+        android:clipToPadding="false">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dp_24">
+
+                <include
+                    android:id="@+id/header"
+                    layout="@layout/content_screen_header"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content" />
+
+                <ImageView
+                    android:id="@+id/btn_menu"
+                    android:layout_width="@dimen/dp_20"
+                    android:layout_height="@dimen/dp_20"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentEnd="true"
+                    android:src="@drawable/ic_menu"/>
+            </RelativeLayout>
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_members"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/dp_72"
+                android:clipToPadding="false"
+                tools:listitem="@layout/adapter_member"/>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv_btn_add"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:layout_margin="@dimen/dp_24"
+            app:cardCornerRadius="@dimen/dp_24"
+            app:cardBackgroundColor="@color/colorPrimary">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="@dimen/dp_16">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginStart="@dimen/dp_8"
+                    android:layout_centerVertical="true"
+                    android:layout_toStartOf="@+id/btn_add">
+
+                    <TextView
+                        android:id="@+id/tv_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:maxLines="2"
+                        android:text="Add Team Member"
+                        android:textColor="@color/md_white_1000"
+                        android:textSize="@dimen/dp_16"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:id="@+id/tv_description"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dp_4"
+                        android:maxLines="3"
+                        android:text="5 out of 10 members added"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/md_white_1000"
+                        android:textSize="@dimen/sp_16" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/btn_add"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentEnd="true"
+                    android:padding="@dimen/dp_20"
+                    android:background="@drawable/circle_white"
+                    android:src="@drawable/ic_baseline_add_24"/>
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+</layout>

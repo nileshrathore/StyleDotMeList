@@ -1,0 +1,59 @@
+[{
+  "name": "Clayten Rorario",
+  "role": "Team Leader",
+  "profilePhotoUrl": "https://menhairstylesworld.com/wp-content/uploads/2019/08/Regular-Types-of-Haircuts-for-Men.jpg",
+  "tasks": 4,
+  "progress": 10
+},
+  {
+    "name": "Mendel Blomburg",
+    "role": "Member",
+    "profilePhotoUrl": "https://mk0blackbeardpryj5mo.kinstacdn.com/wp-content/uploads/2019/08/The-Angular-beard-300x300.jpg"
+  },
+  {
+    "name": "Jin Yang Fong",
+    "role": "Member",
+    "profilePhotoUrl": "https://assets.sutori.com/user-uploads/image/14627ae2-2855-4896-800c-57431eb9de3b/339c7d11b3e27898cc24457066954c3e.jpeg",
+    "tasks": 1
+  },
+  {
+    "name": "Lisa Morancie",
+    "role": "Moderator",
+    "profilePhotoUrl": "https://66.media.tumblr.com/ca75fc55924ab2c7d51bd21491159dc0/tumblr_prkt6fq09t1uq0106_640.jpg",
+    "progress": 52
+  },
+  {
+    "name": "Adam Christopher",
+    "role": "Member",
+    "profilePhotoUrl": "https://4.bp.blogspot.com/-OgS65fjgzoo/Vrq70SM71XI/AAAAAAAAH0Q/bs16wDCWi58qaKUDKOkZ57COXaGkrABHwCPcB/s640/Ca0X8fHWEAAmToQ.jpg"
+  },
+  {
+    "name": "Clayten Rorario",
+    "role": "Team Leader",
+    "profilePhotoUrl": "https://menhairstylesworld.com/wp-content/uploads/2019/08/Regular-Types-of-Haircuts-for-Men.jpg",
+    "tasks": 4,
+    "progress": 10
+  },
+  {
+    "name": "Mendel Blomburg",
+    "role": "Member",
+    "profilePhotoUrl": "https://mk0blackbeardpryj5mo.kinstacdn.com/wp-content/uploads/2019/08/The-Angular-beard-300x300.jpg"
+  },
+  {
+    "name": "Jin Yang Fong",
+    "role": "Member",
+    "profilePhotoUrl": "https://assets.sutori.com/user-uploads/image/14627ae2-2855-4896-800c-57431eb9de3b/339c7d11b3e27898cc24457066954c3e.jpeg",
+    "tasks": 1
+  },
+  {
+    "name": "Lisa Morancie",
+    "role": "Moderator",
+    "profilePhotoUrl": "https://66.media.tumblr.com/ca75fc55924ab2c7d51bd21491159dc0/tumblr_prkt6fq09t1uq0106_640.jpg",
+    "progress": 52
+  },
+  {
+    "name": "Adam Christopher",
+    "role": "Member",
+    "profilePhotoUrl": "https://4.bp.blogspot.com/-OgS65fjgzoo/Vrq70SM71XI/AAAAAAAAH0Q/bs16wDCWi58qaKUDKOkZ57COXaGkrABHwCPcB/s640/Ca0X8fHWEAAmToQ.jpg"
+  }
+]
