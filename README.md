@@ -1,3 +1,3 @@
 # StyleDotMeList
 
-![](https://i.ibb.co/F08HBwX/Screenshot-2020-06-06-15-09-18-334-app-sample-styledotmesample.jpg)
+![](https://i.ibb.co/3cCt5TF/Webp-net-resizeimage-1.jpg)
